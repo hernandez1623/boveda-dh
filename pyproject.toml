@@ -1,0 +1,14 @@
+[project]
+name = "boveda-dh"
+version = "1.0.0"
+description = "Gestor de contraseñas personal"
+requires-python = ">=3.9"
+
+[tool.flet]
+product = "Bóveda DH"
+org = "com.dh"
+bundle_id = "com.dh.bovedadh"
+
+[tool.flet.android.permission]
+"android.permission.USE_BIOMETRIC" = true
+"android.permission.USE_FINGERPRINT" = true
